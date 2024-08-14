@@ -74,7 +74,6 @@ The usefulness of the generator depends on how you use Obsidian and, primarily, 
    xdg-open "obsidian://open?vault=${vault}"
    ```
 
-   The `vault_template.sh` script is a template that you can modify according to your needs. Ensure it is set to launch the Obsidian application with the appropriate path to the vault.
 
 ## Requirements
 
