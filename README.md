@@ -7,7 +7,13 @@ This project includes a Bash script for generating a menu on a Linux desktop pan
 - `generate_menu.sh`: The main Bash script for generating executable files for individual vaults.
 - `vault_template.sh`: A template for vault executable files.
 - `vault_names.txt`: A list of vault names that the script uses.
+- `vaults/`: Directory for vault executable files.
+- `vaults/_last.sh`: Open last opened vault. Obsidian default behavior.
+- `icon.ico`: Default icon for the menu.
+- `.gitignore`: Ignore build, temp, and config files.
 - `README.md`: This documentation file.
+- `LICENSE`: License file.
+
 
 ## How It Works
 
