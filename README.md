@@ -4,6 +4,10 @@ This project includes a Bash script for generating a menu on a Linux desktop pan
 
 The usefulness of the generator depends on how you use Obsidian and, primarily, the number of vaults you manage. If, like me, you have multiple vaults for various personal and work-related matters, it can be beneficial to open a specific vault as needed rather than defaulting to the most recently opened one.
 
+> Prefer to automate repetitive tasks whenever possible. 
+> Vaults in a second brain system evolve organically as needed. 
+> Tools and processes support rather than define the workflow.
+
 ## Project Contents
 
 - `generate_menu.sh`: The main Bash script for generating executable files for individual vaults.
