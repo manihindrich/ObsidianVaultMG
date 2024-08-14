@@ -26,8 +26,8 @@ This project includes a Bash script for generating a menu on a Linux desktop pan
    - I have good experience with the menu applet for starting scripts https://cinnamon-spices.linuxmint.com/applets/view/185 I recommend using it or finding something similar.
    - create a new applet via the applet menu
    - right click on the created applet to configure
-   - script directory - select 'vaults' subdirectory in project directory
-   - *optional* - custom icon 'on', icon - select 'icon.ico' in the root directory of the project; show title 'off', but if you fill in the title before turning it off, it will be displayed when the mouse is hovered over
+   - script directory - select `vaults` subdirectory in project directory
+   - *optional* - custom icon `on`, icon - select `icon.ico` in the root directory of the project; show title `off`, but if you fill in the title before turning it off, it will be displayed when the mouse is hovered over
 
 3. **Usage**:
    - You can add these executable files to your desktop panel.
