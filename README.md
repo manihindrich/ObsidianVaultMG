@@ -1,6 +1,8 @@
 # Obsidian Vault Menu Generator
 
-This project includes a Bash script for generating a menu on a Linux desktop panel that allows quick and elegant access to various Obsidian vaults. The script automates the process of creating executable files for individual vaults based on a list in a text file.
+This project includes a Bash script for generating a menu on a Linux desktop panel that allows quick and elegant access to various [Obsidian](https://obsidian.md/) vaults. The script automates the process of creating executable files for individual vaults based on a list in a text file.
+
+The usefulness of the generator depends on how you use Obsidian and, primarily, the number of vaults you manage. If, like me, you have multiple vaults for various personal and work-related matters, it can be beneficial to open a specific vault as needed rather than defaulting to the most recently opened one.
 
 ## Project Contents
 
