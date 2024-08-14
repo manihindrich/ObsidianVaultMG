@@ -1,3 +1,3 @@
 #!/bin/bash
 
-obsidian
+xdg-open "obsidian://open?"

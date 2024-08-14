@@ -26,13 +26,15 @@ The usefulness of the generator depends on how you use Obsidian and, primarily, 
 1. **Setup**:
    - Create the `vault_names.txt` file in the root directory of the project. 
    - This file should contain one vault name per line. 
-   - Avoid empty lines.
+   - Empty lines have no effect.
 
 2. **Running the `generate_menu.sh` Script**:
-   - The script reads vault names from the `vault_names.txt` file.
-   - For each name, it creates a new executable file in the `OVMG/vaults/` directory based on the `vault_template.sh` template.
+   - The script operates in `ObsidianVaultMG` directory.
+   - Remove content of `vaults/` directory.
+   - Reads vault names from the `vault_names.txt` file.
+   - For each name, it creates a new executable file in the `vaults/` directory based on the `vault_template.sh` template.
    - Each executable file will contain the vault name, which you can then use to open the vault.
-   - If you make changes in vaults, just remove content of `OVMG/vaults/` directory and run `generate_menu.sh` again.
+   - **UPDATE** If you make changes in vaults, just update list of vaults names `vault_names.txt` and run `generate_menu.sh` again.
 
 3. **Scripts Menu**:
    - I have good experience with the menu applet for starting scripts https://cinnamon-spices.linuxmint.com/applets/view/185 I recommend using it or finding something similar.
@@ -69,7 +71,7 @@ The usefulness of the generator depends on how you use Obsidian and, primarily, 
 3. **Format of `vault_template.sh`**:
    ```bash
    #!/bin/bash
-   obsidian "/home/$(whoami)/Documents/Vaults/${name}"
+   xdg-open "obsidian://open?vault=${vault}"
    ```
 
    The `vault_template.sh` script is a template that you can modify according to your needs. Ensure it is set to launch the Obsidian application with the appropriate path to the vault.
