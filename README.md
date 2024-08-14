@@ -24,9 +24,9 @@ The usefulness of the generator depends on how you use Obsidian and, primarily, 
 ## How It Works
 
 1. **Setup**:
-   - Create the `vault_names.txt` file in the root directory of the project. 
+   - **CREATE |** Create the `vault_names.txt` file in the root directory of the project. 
    - This file should contain one vault name per line. 
-   - Empty lines have no effect.
+   - *Empty lines have no effect.*
 
 2. **Running the `generate_menu.sh` Script**:
    - The script operates in `ObsidianVaultMG` directory.
@@ -34,14 +34,14 @@ The usefulness of the generator depends on how you use Obsidian and, primarily, 
    - Reads vault names from the `vault_names.txt` file.
    - For each name, it creates a new executable file in the `vaults/` directory based on the `vault_template.sh` template.
    - Each executable file will contain the vault name, which you can then use to open the vault.
-   - **UPDATE** If you make changes in vaults, just update list of vaults names `vault_names.txt` and run `generate_menu.sh` again.
+   - **UPDATE |** If you make changes in vaults, just update list of vaults names `vault_names.txt` and run `generate_menu.sh` again.
 
 3. **Scripts Menu**:
    - I have good experience with the menu applet for starting scripts [Scripts Menu](https://cinnamon-spices.linuxmint.com/applets/view/185). But it is quite clear that there are many similar solutions for all systems.
    - create a new applet via the applet menu
    - right click on the created applet to configure
    - script directory - select `vaults/` subdirectory in project directory
-   - *optional* - custom icon `on`, icon - select `icon.ico` in the root directory of the project; show title `off`, but if you fill in the title before turning it off, it will be displayed when the mouse is hovered over
+   - **OPTIONAL |** custom icon `on`, icon - select `icon.ico` in the root directory of the project; show title `off`, but if you fill in the title before turning it off, it will be displayed when the mouse is hovered over
 
 3. **Usage**:
    - You can add these executable files to your desktop panel.
