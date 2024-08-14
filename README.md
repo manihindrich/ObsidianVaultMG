@@ -37,10 +37,10 @@ The usefulness of the generator depends on how you use Obsidian and, primarily, 
    - **UPDATE** If you make changes in vaults, just update list of vaults names `vault_names.txt` and run `generate_menu.sh` again.
 
 3. **Scripts Menu**:
-   - I have good experience with the menu applet for starting scripts https://cinnamon-spices.linuxmint.com/applets/view/185 I recommend using it or finding something similar.
+   - I have good experience with the menu applet for starting scripts [Scripts Menu](https://cinnamon-spices.linuxmint.com/applets/view/185). But it is quite clear that there are many similar solutions for all systems.
    - create a new applet via the applet menu
    - right click on the created applet to configure
-   - script directory - select `vaults` subdirectory in project directory
+   - script directory - select `vaults/` subdirectory in project directory
    - *optional* - custom icon `on`, icon - select `icon.ico` in the root directory of the project; show title `off`, but if you fill in the title before turning it off, it will be displayed when the mouse is hovered over
 
 3. **Usage**:
@@ -80,7 +80,7 @@ The usefulness of the generator depends on how you use Obsidian and, primarily, 
 
 - Bash shell
 - Obsidian
-- Vaults stored in `~/Documents/Vaults/`
+- Scripts Menu (or something like that)
 
 ## Contributing
 
